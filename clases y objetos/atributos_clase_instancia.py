@@ -6,7 +6,7 @@ class Persona:
         self.atributo_instancia = atributo_instancia
         
 if __name__ == '__main__':
-    print('*** Atributo de Clae ***')
+    print('*** Atributo de Clase ***')
     print(f'Atributo de clase: {Persona.atributo_clase}')
     # modificar el atributo de clase
     Persona.atributo_clase = 10
